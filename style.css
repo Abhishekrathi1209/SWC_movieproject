@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.headsection{
+    background-color: #333333;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    padding-left: 20px;
+}
+
+.searchbar{
+    margin-top: 30px;
+    margin-right: 70px;
+}
+
+#logotitle {
+    color: blueviolet;
+}
+
+#searchInput {
+    padding: 5px;
+    border-radius: 4px;
+    border: none;
+}
+
+button {
+    padding: 8px 15px;
+    border-radius: 4px;
+    border: none;
+    background-color: #918b8b;
+    color: white;
+    cursor: pointer;
+}
+
+.navigation {
+    background-color: #918b8b;
+    padding: 1px;
+    position: sticky;
+    top: 0px;
+}
+
+.navigation ul {
+    white-space: nowrap;
+}
+
+.navigation ul li {
+    width: 20%;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    color: #f9f1f1;
+}
+
+#moviecontent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#trendingmovies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#nowplayingmovies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#topratedmovies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#popularmovies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#upcomingmovies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.moviedata {
+    display: inline-block;
+    width: 250px;
+    margin: 1rem;
+    padding: 8px;
+    border-radius: 3px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    background-color: #fff;
+}
+
+.moviedata img{
+    width: 100%;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+.movie-info h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.movie-info p {
+    margin: 5px 0;
+    color: #777;
+}
+
