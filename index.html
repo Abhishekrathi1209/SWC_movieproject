@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MovieFinder</title>
     <link rel="stylesheet" href="./style.css">
+    <script src="data.js" defer></script>
 </head>
 <body>
     <header>
@@ -19,8 +20,8 @@
                 </table>
             </div>
             <div class="searchbar">
-                <form id="">
-                    <input type="text", name="search", id="searchInput", placeholder="Search...">
+                <form>
+                    <input type="text" name="search" id="searchInput" placeholder="Search...">
                     <button type="submit">GO</button>
                 </form>
             </div>
@@ -38,8 +39,8 @@
             </ul>
         </nav>
         
-        <div id="moviecontent">
-            <script src="./moviedata/data.js" defer></script>
+        <div id="searchedmovies">
+            <div id="homepagemovies"></div>
         </div>
     </main>
 </body>

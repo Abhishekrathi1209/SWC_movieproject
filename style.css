@@ -60,7 +60,13 @@ button {
     color: #f9f1f1;
 }
 
-#moviecontent {
+#searchedmovies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#homepagemovies {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
